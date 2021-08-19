@@ -1,0 +1,24 @@
+@import './variables.scss';
+@import './mixins';
+
+html{
+  @include box-sizing(border-box);
+}
+*,
+*:after,
+*:before {
+  @include box-sizing(inherit);
+}
+body{
+  font-family: $mainFont;
+}
+.container{
+  max-width: 1170px;
+  margin: 0 auto;
+}
+.header{
+  display: flex;
+  justify-content:space-between;
+}
+
+

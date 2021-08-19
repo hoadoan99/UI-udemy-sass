@@ -1,0 +1,9 @@
+@mixin box-sizing($name) {
+    box-sizing: $name;
+}
+
+@mixin flex-box($align: "center", $justify: "center") {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+}

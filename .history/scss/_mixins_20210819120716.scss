@@ -1,0 +1,7 @@
+@mixin box-sizing($name) {
+    box-sizing: $name;
+}
+
+@mixin flex-box() {
+        display: flex;
+}

@@ -1,0 +1,25 @@
+@mixin box-sizing($name) {
+    box-sizing: $name;
+}
+    
+@mixin flex-box($align: center, $justify: center) {
+        display: flex;
+        align-items: $align;
+        justify-content: $justify;
+}
+
+@mixin button($bg-color) {
+    background-color: $bg-color;
+    padding: 0.5rem 1rem;
+    display: block;
+    text-align: center;
+    color: $whiteColor;
+    text-decoration: none
+}
+//Media queries
+@mixin phone { 
+    @media (min-width:$tablet) {
+    
+    }
+}
+    

@@ -1,0 +1,7 @@
+@import './variables.scss';
+@import './mixins';
+
+body{
+  @include box-sizing();
+  font-family: $mainFont;
+}

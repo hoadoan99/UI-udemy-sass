@@ -1,0 +1,16 @@
+@import './variables.scss';
+@import './mixins';
+
+html{
+  @include box-sizing('border-box');
+}
+*,
+*:after,
+*:before {
+  
+}
+body{
+  font-family: $mainFont;
+}
+
+
